@@ -72,6 +72,16 @@ body {
 .cart-main {
   padding-right: 30px;
 }
+/* start color */
+.filled
+{
+  color:goldenrod;
+}
+.empty
+{
+  color: light;
+}
+/* media query start........................ */
 @media only screen and (max-width: 768px) {
   #all-products {
     display: grid;
@@ -90,15 +100,7 @@ body {
     padding-right: 10px;
   }
 }
-/* start color */
-.filled
-{
-  color:goldenrod;
-}
-.empty
-{
-  color: light;
-}
+
 @media only screen and (max-width: 468px) {
   #all-products {
     display: grid;
