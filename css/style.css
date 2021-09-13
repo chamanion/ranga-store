@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
+  /* background-color: rgb(121, 134, 60); */
 }
 .search-field {
   border: none;
@@ -14,7 +15,7 @@ body {
 }
 .search-box {
   border: 1px solid rgb(3, 118, 211);
-  width: 281px;
+  width: 277px;
   border-radius: 5px;
   margin: auto;
   margin-top: 50px;
@@ -34,10 +35,16 @@ body {
   margin: auto;
   align-items: center;
   justify-content: center;
+  
 }
 .single-product {
   padding: 10px;
   transition: 0.6s;
+  margin: 20px;
+  background-color: rgb(236, 179, 122);
+  border-radius: 10px;
+  height: 550px;
+  color: rgb(4, 59, 8);
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
@@ -45,8 +52,9 @@ body {
   border: 1px solid cyan;
 }
 .product-image {
-  width: 150px;
+  width: 170px;
   height: 150px;
+  border-radius: 10px;
 }
 .cart {
   width: 350px;
@@ -56,6 +64,8 @@ body {
   border-radius: 5px;
   margin-right: 30px;
   position: fixed;
+  background-color: rgb(247, 141, 35);
+  
 }
 .cart-main {
   padding-right: 30px;
